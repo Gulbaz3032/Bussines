@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+i{
+     /* width: 40px; */
+     font-size: 20px;
+}
+.top{
+    height: 100vh;
+}
+
+.row{
+ --bs-gutter-x: 0 !important;
+}
+hr{
+    padding: 4px;
+    width: 12px;
+}
+.container{
+    background-color: gray;
+    padding: 10px;
+}
+@media screen  and (max-width:550px) {
+.d-flex{
+    display: none;
+ }    
+}
